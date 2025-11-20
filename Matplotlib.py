@@ -1,10 +1,4 @@
-# Importing Modules
 import matplotlib.pyplot as plt
-import numpy as np
-
-y_dir = np.array([5, 9, 1, 0 ,5,3])
-
-
-plt.plot(y_dir, marker ='*')
+colors = ['red', 'green', 'blue']
+plt.bar([1, 2, 3], [4, 5, 6], color=colors) # Sequence of valid colors
 plt.show()
-
